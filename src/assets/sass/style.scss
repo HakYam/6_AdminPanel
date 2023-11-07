@@ -1,0 +1,22 @@
+@import "config/variables";
+@import "config/layout";
+@import "config/colors";
+
+@import "utilites/spacing";
+@import "utilites/mixin-card";
+
+
+@import "base/fonts";
+@import "base/global";
+@import "base/typography";
+@import "base/links";
+@import "hacks/add-product";
+
+@import "components/components";
+@import "components/demo";
+@import "components/form";
+@import "pages/index";
+@import "pages/single-page";
+
+
+$background-color : silver;

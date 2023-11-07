@@ -1,0 +1,28 @@
+.c-tabs{
+    @include e-card;
+    width: 100%;
+}
+
+.c-tabs__control{
+    display: flex;
+}
+
+.c-tabs__tab{
+    flex-grow: 1;
+    text-align: center;
+    padding: spacing() spacing("small");
+    border-bottom: 3px solid transparent;
+}
+
+.c-tabs__tab.is-active {
+    border-bottom: 3px solid $color-primary;
+}
+
+.c-tabs__tabarea{
+    display: none;
+}
+
+.c-tabs__tabarea.is-active{
+    display: block;
+    padding: spacing() spacing("small");
+}

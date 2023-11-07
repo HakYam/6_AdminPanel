@@ -1,0 +1,18 @@
+.c-help {
+    display: flex;
+    align-items: center;
+    border-radius: (spacing("normal") * 2);
+    padding: spacing("extra-small") spacing("normal");
+    background: white;
+    border: 1px solid rgba(darken($color-primary, 30%), 0.15);
+    box-shadow: 0 1px 3px 0 rgba(darken($color-primary, 30%), 0.15),
+        0 0 0 1px rgba(darken($color-primary, 30%), 0.05);
+    margin: spacing("wide") auto;
+    width: fit-content;
+}
+
+.c-help__icon {
+    margin-left: spacing("extra-small");
+    color: $color-primary;
+    font-size: 20px;
+}
